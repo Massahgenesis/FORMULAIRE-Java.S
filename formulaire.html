@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title> REPRODUCTION DE FORMULAIRE</title>
+</head>
+<body>
+    <h1>FORMULAIRE DWWM</h1>
+    <br>
+    <form action="" method="post">
+        <div class="formexample">
+           <div class="name">
+               Nom
+            </div> 
+        <div class="container">
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom">
+        </div>
+        </div>
+        <div class="formexample">
+            <div class="name">
+            Email
+        </div>
+        <div class="container">
+            <input type="text" id="email" name="email" placeholder="Entrez votre email">
+        </div>
+        </div>
+        <div class="formexample">
+            <div class="name">
+            Indiquez votre satisfaction au cours de 1 à 10
+        </div>
+        <div class="container">
+            <input type="text" id="avis" name="avis" placeholder="numéro de 1 à 10">
+        </div>
+        </div>
+        <div class="formexample">
+            <div class="name">
+            Qui est votre Coach?
+         </div>
+         <div class="container">
+            <select id="coach" name="coach">
+                <option value="birante">Birante</option><br>
+                <option value="mamadou">Mamadou</option><br>
+                <option value="malick">Malick</option><br>
+            </select>
+            </div>
+         </div>
+            <!--<div class="formexample"> 
+            <div class="name">
+            A quel moment avez-vous cours?
+        </div>
+        <div class="container">
+                <input type="radio" name="temps" id="matin">
+                <label for="matin">Matin</label><br>
+                <input type="radio" name="temps" id="après-midi">
+                <label for="après-midi">Après midi</label><br>
+                <input type="radio" name="temps" id="soir">
+                <label for="soir">Soir</label><br>
+            </div>
+        </div>
+        <div class="formexample">
+        <div class="name">
+            Quels outils avez-vous rencontrés jusque là?<br> (Selectionnez tout ce qui s'applique)
+        </div>
+            <div class="container">
+                <input type="checkbox" id="html">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="javascript">
+                <label for="javascript">JavaScript</label><br>
+                <input type="checkbox" id="editeur de texte">
+                <label for="editeur de texte">Editeurs de texte</label><br>
+                <input type="checkbox" id="ligne de commande">
+                <label for="ligne de commande">Ligne de commande</label><br>
+        </div>
+        </div>
+        -->
+        <div class="formexample">
+            <div class="name">    
+            Décrivez votre expérience jusque là
+        </div>
+        <div class="container">
+            <textarea name="textarea" id="textarea" cols="20" rows="4" placeholder="Décrivez votre expérience ici..."></textarea>
+        </div>
+        </div>
+            <button onclick="afficher()" type="button">Valider</button>
+
+    </form>
+    <h1 id="nom"> </h1>
+    <h1 id="text"> </h1>
+    <h1 id="opinion"> </h1>
+    <h1 id="professeur"> </h1>
+    <h1 id="message"> </h1>
+    <Script src="formulaire.js"></Script>
+    
+</body>
+</html>
